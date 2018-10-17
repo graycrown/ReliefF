@@ -105,4 +105,4 @@ class ReliefF(object):
             Reduced feature matrix
 
         """
-        return X[:, self.top_features[self.n_features_to_keep]]
+        return X[:, self.top_features[0:self.n_features_to_keep]]
